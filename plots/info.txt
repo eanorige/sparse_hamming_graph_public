@@ -1,0 +1,1 @@
+This directory is used to store plots that visualize the results form our network-on-chip cost- and performance-prediction toolchain.

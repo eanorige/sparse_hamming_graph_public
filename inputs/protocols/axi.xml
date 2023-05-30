@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<protocol>
+	<wires_per_connection>lambda x : 2 * x + 128</wires_per_connection>
+	<mux_area_in_ge> lambda s, bw : 1000 + s * bw * 16 </mux_area_in_ge>
+	<demux_area_in_ge> lambda m, bw : 28000 + m * bw * 6 </demux_area_in_ge>
+	<router_area_in_ge> lambda am, ad, s, m, bw : s * ad(m+1, bw) + m * am(s, bw) </router_area_in_ge>
+	<phy_area_in_ge> lambda bw : 5500 * bw </phy_area_in_ge>
+</protocol>

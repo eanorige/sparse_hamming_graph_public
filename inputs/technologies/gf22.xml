@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<technology>
+	<mm2_per_ge>2e-7</mm2_per_ge>							
+	<mm_per_vertical_wire>4.44e-5</mm_per_vertical_wire>	
+	<mm_per_horizontal_wire>9e-5</mm_per_horizontal_wire>	
+	<s_per_mm>1e-9</s_per_mm> 								
+	<w_per_mm2_logic>0.11</w_per_mm2_logic>					
+	<w_per_mm2_wire>0.03666</w_per_mm2_wire>				
+</technology>

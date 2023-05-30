@@ -1,0 +1,1 @@
+This directory is used to store log-files from the simulations in BookSim2.

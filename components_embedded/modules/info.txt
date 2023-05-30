@@ -1,0 +1,1 @@
+This directory is used to store descriptions of modules that are embedded into the grid of unit-cells that forms the core of our custom network-on-chip model.
